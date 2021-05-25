@@ -1,0 +1,51 @@
+.avatar img {
+    width: 75px;
+    height: 75px;
+
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    border: 2px solid #ccc;
+    margin: 5px 0;
+    box-shadow: 25px 25px 15px gray;
+
+
+}
+
+
+.avatar{
+    margin:35px;
+    text-align: center;
+}
+
+.yorumlar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/respkur.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+@media(max-width:768px){
+
+    .user{
+        flex-direction: column;
+        width: 100%;
+        border-radius: 6px;
+        padding: 15px;
+        margin: 15px;
+    }
+    .yorumlar h3{
+        padding: 25px;
+    }
+
+
+
+}

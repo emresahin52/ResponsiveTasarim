@@ -1,0 +1,49 @@
+.td img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.teknik_ekip{
+    margin-top: 0.25rem;
+    display: flex;
+    background-image: url(img/kurucular.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+
+}
+
+.td{
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 15px 15px 8px grey;
+    margin: 0 5px;
+
+}
+
+
+@media(max-width:768px){
+    .teknik_ekip{
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .td{
+        width: 75%;
+        margin: 5px 0;
+    }
+    .td:hover{
+        transform: scale(1.03);
+        transition:0.5s ;
+    }
+
+
+}
